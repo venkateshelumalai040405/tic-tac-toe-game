@@ -253,8 +253,7 @@ if (values === true) {
                   result.innerText = "WINNING X";
                   console.log("stop");
                   alert("WINNING X");
-                  index = false;
-                  values = false;
+                  
                   break;
                 }
               }
@@ -282,8 +281,7 @@ if (values === true) {
                   console.log("stop");
                   alert("WINNING X");
                   console.log(val);
-                  index = false;
-                  values = false;
+                  
                   break;
                 }
               }
@@ -313,8 +311,7 @@ if (values === true) {
                   console.log("stop");
                   console.log(val);
                   alert("WINNING X");
-                  index = false;
-                  values = false;
+                  
                   break;
                 }
               }
@@ -327,12 +324,7 @@ if (values === true) {
           t1.length = 0;
         }
       }
-      if (val2.length === 4) {
-        result.innerText = "match draw";
-        alert("MATCH DRAW");
-        index = false;
-        values = false;
-      }
+      
 
     }
   }
@@ -352,8 +344,7 @@ if (values === true) {
                   result.innerText = "WINNING Y";
                   console.log("stop");
                   alert("WINNING Y");
-                  index1 = false;
-                  values = false;
+                  
                   break;
                 }
 
@@ -381,8 +372,7 @@ if (values === true) {
                   result.innerText = "WINNING Y";
                   console.log("stop");
                   alert("WINNING Y");
-                  index1 = false;
-                  values = false;
+                  
                   break;
                 }
                 /* else {
@@ -399,11 +389,7 @@ if (values === true) {
           }
           t2.length = 0;
         }
-        if (val2.length === 4 && val.length === 5) {
-          result.innerText = "MATCH DRAW";
-          values = false;
-          alert("");
-        }
+        
       }
 
       if (val2.length === 5) {
@@ -421,8 +407,6 @@ if (values === true) {
                   result.innerText = "WINNING Y";
                   alert("WINNING Y");
                   console.log("stop");
-                  index1 = false;
-                  values = false;
                   break;
                 }
                 /* else {
@@ -442,7 +426,6 @@ if (values === true) {
       }
     }
   }
-  index = false;
   values = false;
 }
 
